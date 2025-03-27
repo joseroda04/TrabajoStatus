@@ -1,0 +1,18 @@
+Instalacion
+--------------------------------
+
+Para instalar el proyecto necesitas:
+- PyCham como IDE
+- Visual Studio o Cursor (un IDE que proporcione servicio de Live Server)
+
+Pasos a seguir:
+Necesitamos abrir el proyecto apiphyton, apartir del cual iniciaremos el entorno virtual con .\venv\scripts\activate
+Dentro del entorno, hacemos cd .\api\, cuando entramos a esta direccion iniciamos las migraciones con python manage.py makemigrations y python manage.py migrate.
+Iniciamos el servicio de la API con python manage.py runserver 0.0.0.0:8000 para alojar el servicio en el puerto 8000 manualmente.
+En caso de dar error, posiblemente falta instalar las dependencias especifical del proyecto, las cuales estan en requierements.txt, para instalarlas tendremos que usar pip install -r requirements.txt.
+
+Despues lanzar con el Live Server el index.html que esta en apiphyton/api/user/template/user/index.html
+Ya tendriamos nuestro servicio API y la pagina que nos concierne iniciado y corriendo, despues de esto para empezar a usar la funcionalidad de la API lanzariamos el Pulsador-Posicionador.py para poder simular o en caso de estar en la raspberry poder realizar los cambios de estado.
+Cabe mencionar que el script.py del pulsador esta en una posicion definida en codigo, por lo que si tenemos varios dispositivos y queremos que cada uno tenga el id/posicion especifico, deberemos cambiar el numero del script.
+
+Tambien si queremos gestionar la API y su base de datos podremos usar Postman para añadir, eliminar o modificar las entradas de nuestra API.
