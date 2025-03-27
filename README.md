@@ -8,7 +8,7 @@ Manuel Blanes Toril
 
 Asignatura: Entornos de Desarrollo
 
-Curso: !º DAM
+Curso: 1º DAM
 
 Año: 2024-2025
 
