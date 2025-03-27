@@ -2,8 +2,8 @@
 Patrón de diseño de desarrollo: Estado aplicado a un proyecto python.
 
 Grupo: 
-Jose Antonio Roda Donoso
-David Alberto Cruz Barranco
+Jose Antonio Roda Donoso,
+David Alberto Cruz Barranco,
 Manuel Blanes Toril
 
 Asignatura: Entornos de Desarrollo
